@@ -32,11 +32,9 @@
     // Do any additional setup after loading the view.
     self.beaconOneButton.backgroundColor = [UIColor colorWithRed:241.0/255.0 green:196.0/255.0 blue:15.0/255.0 alpha:1.0];
     self.beaconOneButton.titleLabel.textColor = [UIColor whiteColor];
-    self.beaconOneButton.layer.cornerRadius = 5;
     
     self.beaconTwoButton.backgroundColor = [UIColor colorWithRed:46.0/255.0 green:204.0/255 blue:113.0/255.0 alpha:1.0];
     self.beaconTwoButton.titleLabel.textColor = [UIColor whiteColor];
-    self.beaconTwoButton.layer.cornerRadius = 5;
     
     _uuid = [[NSUUID alloc] initWithUUIDString:@"BC02C8B3-456E-4FEA-8AFE-B7ABC8945291"];
 }

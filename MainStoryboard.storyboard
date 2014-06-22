@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="w88-vf-fyx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="thX-XX-cN0">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Main View Controller-->
@@ -17,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axL-b5-4UR">
-                                <rect key="frame" x="20" y="340" width="280" height="120"/>
+                                <rect key="frame" x="0.0" y="240" width="300" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Broadcast Beacon Two">
@@ -26,17 +27,11 @@
                                 </state>
                                 <connections>
                                     <action selector="beaconTwoTapped:" destination="w88-vf-fyx" eventType="touchUpInside" id="15J-91-qVK"/>
+                                    <segue destination="HGI-uE-yke" kind="push" id="Hgh-RN-VC4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Not Broadcasting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UL-Nt-WlB">
-                                <rect key="frame" x="20" y="234" width="280" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6x-rt-q4Q">
-                                <rect key="frame" x="20" y="20" width="280" height="120"/>
+                                <rect key="frame" x="0.0" y="20" width="300" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Broadcast Beacon One">
@@ -45,23 +40,99 @@
                                 </state>
                                 <connections>
                                     <action selector="beaconOneTapped:" destination="w88-vf-fyx" eventType="touchUpInside" id="7OX-nZ-FOr"/>
+                                    <segue destination="r83-Rb-lGx" kind="push" id="yuO-26-TtD"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="axL-b5-4UR" firstAttribute="top" secondItem="7UL-Nt-WlB" secondAttribute="bottom" constant="80" id="9xq-e8-xOZ"/>
-                            <constraint firstItem="7UL-Nt-WlB" firstAttribute="top" secondItem="N6x-rt-q4Q" secondAttribute="bottom" constant="50" id="dOp-n3-Tjm"/>
-                            <constraint firstAttribute="centerY" secondItem="7UL-Nt-WlB" secondAttribute="centerY" constant="0.5" id="w7p-l4-aNP"/>
+                            <constraint firstAttribute="width" secondItem="N6x-rt-q4Q" secondAttribute="width" id="cNk-7g-Bg7"/>
+                            <constraint firstAttribute="height" secondItem="N6x-rt-q4Q" secondAttribute="height" multiplier="2" id="dMC-3H-ehA"/>
+                            <constraint firstItem="axL-b5-4UR" firstAttribute="height" secondItem="N6x-rt-q4Q" secondAttribute="height" id="mTh-0e-ibB"/>
+                            <constraint firstItem="axL-b5-4UR" firstAttribute="width" secondItem="I2p-NQ-opt" secondAttribute="width" id="ynD-bF-Tga"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="95R-1Q-ZMD"/>
                     <connections>
                         <outlet property="beaconOneButton" destination="N6x-rt-q4Q" id="lGo-R7-HKs"/>
                         <outlet property="beaconTwoButton" destination="axL-b5-4UR" id="U5x-Ae-DpR"/>
-                        <outlet property="statuslabel" destination="7UL-Nt-WlB" id="qiV-SD-5ud"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JI8-3D-HTQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670" y="83"/>
+        </scene>
+        <!--View Controller - Beacon Two-->
+        <scene sceneID="SdR-bF-OBZ">
+            <objects>
+                <viewController id="HGI-uE-yke" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NDv-ez-yHb"/>
+                        <viewControllerLayoutGuide type="bottom" id="nXa-0p-tzD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dnl-PM-HTA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Broadcasting Beacon Two..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppX-EL-r6Z">
+                                <rect key="frame" x="0.0" y="229" width="325" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1803921568627451" green="0.80000000000000004" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Beacon Two" id="5x8-rs-wPX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cac-09-bXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1120" y="447"/>
+        </scene>
+        <!--View Controller - Beacone One-->
+        <scene sceneID="5sn-bW-1xv">
+            <objects>
+                <viewController id="r83-Rb-lGx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E3q-Cu-RGy"/>
+                        <viewControllerLayoutGuide type="bottom" id="UQz-VL-CAu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vGQ-yh-HYe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Broadcasting Beacon One..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68h-1J-lDB">
+                                <rect key="frame" x="0.0" y="229" width="320" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803921568625" green="0.76862745098039209" blue="0.058823529411764705" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Beacone One" id="FFh-WE-5fu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="19y-ll-JrO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1114" y="-153"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vwo-zF-6Zw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="thX-XX-cN0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6OE-u7-a9Z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="w88-vf-fyx" kind="relationship" relationship="rootViewController" id="0p5-js-Q3O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WtI-xb-wst" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="276" y="83"/>
         </scene>
