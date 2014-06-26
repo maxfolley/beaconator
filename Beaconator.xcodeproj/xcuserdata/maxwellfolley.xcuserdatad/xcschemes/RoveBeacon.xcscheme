@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "273322421956B27D00C26A3B"
-               BuildableName = "RoveBeacon.app"
+               BuildableName = "Beaconator.app"
                BlueprintName = "Beaconator"
                ReferencedContainer = "container:Beaconator.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "273322621956B27D00C26A3B"
-               BuildableName = "RoveBeaconTests.xctest"
+               BuildableName = "BeaconatorTests.xctest"
                BlueprintName = "BeaconatorTests"
                ReferencedContainer = "container:Beaconator.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "273322421956B27D00C26A3B"
-            BuildableName = "RoveBeacon.app"
+            BuildableName = "Beaconator.app"
             BlueprintName = "Beaconator"
             ReferencedContainer = "container:Beaconator.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "273322421956B27D00C26A3B"
-            BuildableName = "RoveBeacon.app"
+            BuildableName = "Beaconator.app"
             BlueprintName = "Beaconator"
             ReferencedContainer = "container:Beaconator.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "273322421956B27D00C26A3B"
-            BuildableName = "RoveBeacon.app"
+            BuildableName = "Beaconator.app"
             BlueprintName = "Beaconator"
             ReferencedContainer = "container:Beaconator.xcodeproj">
          </BuildableReference>

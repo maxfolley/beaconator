@@ -137,8 +137,7 @@
 				2733227D1956B2A400C26A3B /* MainViewController.h */,
 				2733227E1956B2A400C26A3B /* MainViewController.m */,
 			);
-			name = Beaconator;
-			path = RoveBeacon;
+			path = Beaconator;
 			sourceTree = "<group>";
 		};
 		2733224F1956B27D00C26A3B /* Supporting Files */ = {
@@ -158,8 +157,7 @@
 				273322711956B27D00C26A3B /* RoveBeaconTests.m */,
 				2733226C1956B27D00C26A3B /* Supporting Files */,
 			);
-			name = BeaconatorTests;
-			path = RoveBeaconTests;
+			path = BeaconatorTests;
 			sourceTree = "<group>";
 		};
 		2733226C1956B27D00C26A3B /* Supporting Files */ = {
@@ -392,8 +390,8 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RoveBeacon/Beaconator-Prefix.pch";
-				INFOPLIST_FILE = "RoveBeacon/Beaconator-Info.plist";
+				GCC_PREFIX_HEADER = "Beaconator/Beaconator-Prefix.pch";
+				INFOPLIST_FILE = "Beaconator/Beaconator-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Beaconator;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -411,8 +409,8 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RoveBeacon/Beaconator-Prefix.pch";
-				INFOPLIST_FILE = "RoveBeacon/Beaconator-Info.plist";
+				GCC_PREFIX_HEADER = "Beaconator/Beaconator-Prefix.pch";
+				INFOPLIST_FILE = "Beaconator/Beaconator-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Beaconator;
 				TARGETED_DEVICE_FAMILY = 1;
