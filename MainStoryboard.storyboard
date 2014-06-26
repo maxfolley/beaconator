@@ -18,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axL-b5-4UR">
-                                <rect key="frame" x="0.0" y="240" width="300" height="120"/>
+                                <rect key="frame" x="156" y="0.0" width="170" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Broadcast Beacon Two">
+                                <state key="normal" title="Beacon Two">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -31,10 +31,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6x-rt-q4Q">
-                                <rect key="frame" x="0.0" y="20" width="300" height="120"/>
+                                <rect key="frame" x="0.0" y="0.0" width="154" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Broadcast Beacon One">
+                                <state key="normal" title="Beacon One">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -43,18 +43,89 @@
                                     <segue destination="r83-Rb-lGx" kind="push" id="yuO-26-TtD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CvH-fD-K3f">
+                                <rect key="frame" x="162" y="136" width="170" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Beacon Four">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="beaconTwoTapped:" destination="w88-vf-fyx" eventType="touchUpInside" id="i65-B0-DaJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNe-WX-KI5">
+                                <rect key="frame" x="-6" y="136" width="154" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Beacon Three">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="beaconOneTapped:" destination="w88-vf-fyx" eventType="touchUpInside" id="OSJ-U7-R44"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdf-U1-uAK">
+                                <rect key="frame" x="153" y="286" width="170" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Beacon Six">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="beaconTwoTapped:" destination="w88-vf-fyx" eventType="touchUpInside" id="but-zf-hdJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8O-n0-mCv">
+                                <rect key="frame" x="-3" y="286" width="154" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Beacon Five">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="beaconOneTapped:" destination="w88-vf-fyx" eventType="touchUpInside" id="j3S-3B-yDO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="width" secondItem="N6x-rt-q4Q" secondAttribute="width" id="cNk-7g-Bg7"/>
-                            <constraint firstAttribute="height" secondItem="N6x-rt-q4Q" secondAttribute="height" multiplier="2" id="dMC-3H-ehA"/>
-                            <constraint firstItem="axL-b5-4UR" firstAttribute="height" secondItem="N6x-rt-q4Q" secondAttribute="height" id="mTh-0e-ibB"/>
-                            <constraint firstItem="axL-b5-4UR" firstAttribute="width" secondItem="I2p-NQ-opt" secondAttribute="width" id="ynD-bF-Tga"/>
+                            <constraint firstItem="cdf-U1-uAK" firstAttribute="leading" secondItem="X8O-n0-mCv" secondAttribute="trailing" id="1mG-Qq-ocx"/>
+                            <constraint firstItem="X8O-n0-mCv" firstAttribute="height" secondItem="I2p-NQ-opt" secondAttribute="height" multiplier="0.333333" id="3w2-L5-x7h"/>
+                            <constraint firstItem="jNe-WX-KI5" firstAttribute="width" secondItem="I2p-NQ-opt" secondAttribute="width" multiplier="0.5" id="AWQ-DZ-Hru"/>
+                            <constraint firstItem="N6x-rt-q4Q" firstAttribute="width" secondItem="I2p-NQ-opt" secondAttribute="width" multiplier="0.5" id="CSH-l4-QHJ"/>
+                            <constraint firstItem="CvH-fD-K3f" firstAttribute="leading" secondItem="jNe-WX-KI5" secondAttribute="trailing" id="EZE-KW-8Za"/>
+                            <constraint firstItem="jNe-WX-KI5" firstAttribute="leading" secondItem="I2p-NQ-opt" secondAttribute="leading" id="II5-Bw-S9F"/>
+                            <constraint firstItem="cdf-U1-uAK" firstAttribute="width" secondItem="I2p-NQ-opt" secondAttribute="width" multiplier="0.5" id="IQf-oH-GWr"/>
+                            <constraint firstItem="cdf-U1-uAK" firstAttribute="top" secondItem="CvH-fD-K3f" secondAttribute="bottom" id="IT1-ly-lVX"/>
+                            <constraint firstItem="axL-b5-4UR" firstAttribute="width" secondItem="I2p-NQ-opt" secondAttribute="width" multiplier="0.5" id="J3o-YQ-uGa"/>
+                            <constraint firstItem="X8O-n0-mCv" firstAttribute="width" secondItem="I2p-NQ-opt" secondAttribute="width" multiplier="0.5" id="J5O-JZ-cP2"/>
+                            <constraint firstItem="jNe-WX-KI5" firstAttribute="height" secondItem="I2p-NQ-opt" secondAttribute="height" multiplier="0.333333" id="Mfi-uQ-sIM"/>
+                            <constraint firstItem="CvH-fD-K3f" firstAttribute="width" secondItem="I2p-NQ-opt" secondAttribute="width" multiplier="0.5" id="fFI-PF-fb3"/>
+                            <constraint firstAttribute="trailing" secondItem="axL-b5-4UR" secondAttribute="trailing" id="fTd-yM-dNA"/>
+                            <constraint firstAttribute="trailing" secondItem="cdf-U1-uAK" secondAttribute="trailing" id="gZm-ts-usx"/>
+                            <constraint firstItem="X8O-n0-mCv" firstAttribute="leading" secondItem="I2p-NQ-opt" secondAttribute="leading" id="h53-VN-LeI"/>
+                            <constraint firstItem="cdf-U1-uAK" firstAttribute="height" secondItem="I2p-NQ-opt" secondAttribute="height" multiplier="0.333333" id="hlB-Ms-I7W"/>
+                            <constraint firstItem="N6x-rt-q4Q" firstAttribute="height" secondItem="I2p-NQ-opt" secondAttribute="height" multiplier="0.333333" id="iOJ-6D-oMf"/>
+                            <constraint firstItem="Q3D-ft-dat" firstAttribute="top" secondItem="X8O-n0-mCv" secondAttribute="bottom" id="js9-Rq-86l"/>
+                            <constraint firstItem="Q3D-ft-dat" firstAttribute="top" secondItem="cdf-U1-uAK" secondAttribute="bottom" id="loH-uZ-dEe"/>
+                            <constraint firstAttribute="trailing" secondItem="cdf-U1-uAK" secondAttribute="trailing" id="lwV-CD-i4t"/>
+                            <constraint firstItem="axL-b5-4UR" firstAttribute="height" secondItem="I2p-NQ-opt" secondAttribute="height" multiplier="0.333333" id="n1p-zK-f7l"/>
+                            <constraint firstItem="CvH-fD-K3f" firstAttribute="height" secondItem="I2p-NQ-opt" secondAttribute="height" multiplier="0.3333" id="pnY-Wd-VLN"/>
+                            <constraint firstItem="X8O-n0-mCv" firstAttribute="top" secondItem="jNe-WX-KI5" secondAttribute="bottom" id="zrA-Yi-puW"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="95R-1Q-ZMD"/>
                     <connections>
+                        <outlet property="beaconFiveButton" destination="X8O-n0-mCv" id="uRy-gq-ZDa"/>
+                        <outlet property="beaconFourButton" destination="CvH-fD-K3f" id="kmK-ao-Kpr"/>
                         <outlet property="beaconOneButton" destination="N6x-rt-q4Q" id="lGo-R7-HKs"/>
+                        <outlet property="beaconSixButton" destination="cdf-U1-uAK" id="bwX-gL-1Hq"/>
+                        <outlet property="beaconThreeButton" destination="jNe-WX-KI5" id="n55-gr-MQn"/>
                         <outlet property="beaconTwoButton" destination="axL-b5-4UR" id="U5x-Ae-DpR"/>
                     </connections>
                 </viewController>
@@ -121,7 +192,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Vwo-zF-6Zw">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="thX-XX-cN0" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="thX-XX-cN0" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6OE-u7-a9Z">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

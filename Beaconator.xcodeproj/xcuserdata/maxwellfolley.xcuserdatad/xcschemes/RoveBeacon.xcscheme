@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "273322421956B27D00C26A3B"
                BuildableName = "RoveBeacon.app"
-               BlueprintName = "RoveBeacon"
-               ReferencedContainer = "container:RoveBeacon.xcodeproj">
+               BlueprintName = "Beaconator"
+               ReferencedContainer = "container:Beaconator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "273322621956B27D00C26A3B"
                BuildableName = "RoveBeaconTests.xctest"
-               BlueprintName = "RoveBeaconTests"
-               ReferencedContainer = "container:RoveBeacon.xcodeproj">
+               BlueprintName = "BeaconatorTests"
+               ReferencedContainer = "container:Beaconator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "273322421956B27D00C26A3B"
             BuildableName = "RoveBeacon.app"
-            BlueprintName = "RoveBeacon"
-            ReferencedContainer = "container:RoveBeacon.xcodeproj">
+            BlueprintName = "Beaconator"
+            ReferencedContainer = "container:Beaconator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "273322421956B27D00C26A3B"
             BuildableName = "RoveBeacon.app"
-            BlueprintName = "RoveBeacon"
-            ReferencedContainer = "container:RoveBeacon.xcodeproj">
+            BlueprintName = "Beaconator"
+            ReferencedContainer = "container:Beaconator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "273322421956B27D00C26A3B"
             BuildableName = "RoveBeacon.app"
-            BlueprintName = "RoveBeacon"
-            ReferencedContainer = "container:RoveBeacon.xcodeproj">
+            BlueprintName = "Beaconator"
+            ReferencedContainer = "container:Beaconator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

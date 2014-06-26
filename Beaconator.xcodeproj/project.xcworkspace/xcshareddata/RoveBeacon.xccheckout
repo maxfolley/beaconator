@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2410F3F3-F115-41D9-B219-183A57651AE2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RoveBeacon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C7653E2A-DB45-42CD-A79B-48A6B11B7404</key>
+		<string>ssh://github.com/maxfolley/beaconator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RoveBeacon.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C7653E2A-DB45-42CD-A79B-48A6B11B7404</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/maxfolley/beaconator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C7653E2A-DB45-42CD-A79B-48A6B11B7404</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C7653E2A-DB45-42CD-A79B-48A6B11B7404</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RoveBeacon</string>
+		</dict>
+	</array>
+</dict>
+</plist>

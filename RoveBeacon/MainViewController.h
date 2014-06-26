@@ -18,6 +18,10 @@
 @property (strong, nonatomic) IBOutlet UILabel *statuslabel;
 @property (strong, nonatomic) IBOutlet UIButton *beaconOneButton;
 @property (strong, nonatomic) IBOutlet UIButton *beaconTwoButton;
+@property (strong, nonatomic) IBOutlet UIButton *beaconThreeButton;
+@property (strong, nonatomic) IBOutlet UIButton *beaconFourButton;
+@property (strong, nonatomic) IBOutlet UIButton *beaconFiveButton;
+@property (strong, nonatomic) IBOutlet UIButton *beaconSixButton;
 
 - (IBAction)beaconOneTapped:(id)sender;
 - (IBAction)beaconTwoTapped:(id)sender;

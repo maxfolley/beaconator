@@ -16,7 +16,7 @@
 		273322531956B27D00C26A3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 273322511956B27D00C26A3B /* InfoPlist.strings */; };
 		273322551956B27D00C26A3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 273322541956B27D00C26A3B /* main.m */; };
 		273322591956B27D00C26A3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 273322581956B27D00C26A3B /* AppDelegate.m */; };
-		2733225C1956B27D00C26A3B /* RoveBeacon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2733225A1956B27D00C26A3B /* RoveBeacon.xcdatamodeld */; };
+		2733225C1956B27D00C26A3B /* Beaconator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2733225A1956B27D00C26A3B /* Beaconator.xcdatamodeld */; };
 		2733225E1956B27D00C26A3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2733225D1956B27D00C26A3B /* Images.xcassets */; };
 		273322651956B27D00C26A3B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273322641956B27D00C26A3B /* XCTest.framework */; };
 		273322661956B27D00C26A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273322461956B27D00C26A3B /* Foundation.framework */; };
@@ -41,22 +41,22 @@
 /* Begin PBXFileReference section */
 		271801DB1956D1CC0003BA26 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		271801DD1956D1D30003BA26 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		273322431956B27D00C26A3B /* RoveBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoveBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		273322431956B27D00C26A3B /* Beaconator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beaconator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		273322461956B27D00C26A3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		273322481956B27D00C26A3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2733224A1956B27D00C26A3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2733224C1956B27D00C26A3B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		273322501956B27D00C26A3B /* RoveBeacon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoveBeacon-Info.plist"; sourceTree = "<group>"; };
+		273322501956B27D00C26A3B /* Beaconator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beaconator-Info.plist"; sourceTree = "<group>"; };
 		273322521956B27D00C26A3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		273322541956B27D00C26A3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		273322561956B27D00C26A3B /* RoveBeacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoveBeacon-Prefix.pch"; sourceTree = "<group>"; };
+		273322561956B27D00C26A3B /* Beaconator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beaconator-Prefix.pch"; sourceTree = "<group>"; };
 		273322571956B27D00C26A3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		273322581956B27D00C26A3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2733225B1956B27D00C26A3B /* RoveBeacon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoveBeacon.xcdatamodel; sourceTree = "<group>"; };
+		2733225B1956B27D00C26A3B /* Beaconator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beaconator.xcdatamodel; sourceTree = "<group>"; };
 		2733225D1956B27D00C26A3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		273322631956B27D00C26A3B /* RoveBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoveBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		273322631956B27D00C26A3B /* BeaconatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273322641956B27D00C26A3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		2733226D1956B27D00C26A3B /* RoveBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoveBeaconTests-Info.plist"; sourceTree = "<group>"; };
+		2733226D1956B27D00C26A3B /* BeaconatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconatorTests-Info.plist"; sourceTree = "<group>"; };
 		2733226F1956B27D00C26A3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		273322711956B27D00C26A3B /* RoveBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoveBeaconTests.m; sourceTree = "<group>"; };
 		2733227B1956B28E00C26A3B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -96,8 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				2733227B1956B28E00C26A3B /* MainStoryboard.storyboard */,
-				2733224E1956B27D00C26A3B /* RoveBeacon */,
-				2733226B1956B27D00C26A3B /* RoveBeaconTests */,
+				2733224E1956B27D00C26A3B /* Beaconator */,
+				2733226B1956B27D00C26A3B /* BeaconatorTests */,
 				273322451956B27D00C26A3B /* Frameworks */,
 				273322441956B27D00C26A3B /* Products */,
 			);
@@ -106,8 +106,8 @@
 		273322441956B27D00C26A3B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				273322431956B27D00C26A3B /* RoveBeacon.app */,
-				273322631956B27D00C26A3B /* RoveBeaconTests.xctest */,
+				273322431956B27D00C26A3B /* Beaconator.app */,
+				273322631956B27D00C26A3B /* BeaconatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,44 +126,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2733224E1956B27D00C26A3B /* RoveBeacon */ = {
+		2733224E1956B27D00C26A3B /* Beaconator */ = {
 			isa = PBXGroup;
 			children = (
 				273322571956B27D00C26A3B /* AppDelegate.h */,
 				273322581956B27D00C26A3B /* AppDelegate.m */,
 				2733225D1956B27D00C26A3B /* Images.xcassets */,
-				2733225A1956B27D00C26A3B /* RoveBeacon.xcdatamodeld */,
+				2733225A1956B27D00C26A3B /* Beaconator.xcdatamodeld */,
 				2733224F1956B27D00C26A3B /* Supporting Files */,
 				2733227D1956B2A400C26A3B /* MainViewController.h */,
 				2733227E1956B2A400C26A3B /* MainViewController.m */,
 			);
+			name = Beaconator;
 			path = RoveBeacon;
 			sourceTree = "<group>";
 		};
 		2733224F1956B27D00C26A3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				273322501956B27D00C26A3B /* RoveBeacon-Info.plist */,
+				273322501956B27D00C26A3B /* Beaconator-Info.plist */,
 				273322511956B27D00C26A3B /* InfoPlist.strings */,
 				273322541956B27D00C26A3B /* main.m */,
-				273322561956B27D00C26A3B /* RoveBeacon-Prefix.pch */,
+				273322561956B27D00C26A3B /* Beaconator-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2733226B1956B27D00C26A3B /* RoveBeaconTests */ = {
+		2733226B1956B27D00C26A3B /* BeaconatorTests */ = {
 			isa = PBXGroup;
 			children = (
 				273322711956B27D00C26A3B /* RoveBeaconTests.m */,
 				2733226C1956B27D00C26A3B /* Supporting Files */,
 			);
+			name = BeaconatorTests;
 			path = RoveBeaconTests;
 			sourceTree = "<group>";
 		};
 		2733226C1956B27D00C26A3B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2733226D1956B27D00C26A3B /* RoveBeaconTests-Info.plist */,
+				2733226D1956B27D00C26A3B /* BeaconatorTests-Info.plist */,
 				2733226E1956B27D00C26A3B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -172,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		273322421956B27D00C26A3B /* RoveBeacon */ = {
+		273322421956B27D00C26A3B /* Beaconator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 273322751956B27D00C26A3B /* Build configuration list for PBXNativeTarget "RoveBeacon" */;
+			buildConfigurationList = 273322751956B27D00C26A3B /* Build configuration list for PBXNativeTarget "Beaconator" */;
 			buildPhases = (
 				2733223F1956B27D00C26A3B /* Sources */,
 				273322401956B27D00C26A3B /* Frameworks */,
@@ -184,14 +186,14 @@
 			);
 			dependencies = (
 			);
-			name = RoveBeacon;
+			name = Beaconator;
 			productName = RoveBeacon;
-			productReference = 273322431956B27D00C26A3B /* RoveBeacon.app */;
+			productReference = 273322431956B27D00C26A3B /* Beaconator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		273322621956B27D00C26A3B /* RoveBeaconTests */ = {
+		273322621956B27D00C26A3B /* BeaconatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 273322781956B27D00C26A3B /* Build configuration list for PBXNativeTarget "RoveBeaconTests" */;
+			buildConfigurationList = 273322781956B27D00C26A3B /* Build configuration list for PBXNativeTarget "BeaconatorTests" */;
 			buildPhases = (
 				2733225F1956B27D00C26A3B /* Sources */,
 				273322601956B27D00C26A3B /* Frameworks */,
@@ -202,9 +204,9 @@
 			dependencies = (
 				2733226A1956B27D00C26A3B /* PBXTargetDependency */,
 			);
-			name = RoveBeaconTests;
+			name = BeaconatorTests;
 			productName = RoveBeaconTests;
-			productReference = 273322631956B27D00C26A3B /* RoveBeaconTests.xctest */;
+			productReference = 273322631956B27D00C26A3B /* BeaconatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2733223E1956B27D00C26A3B /* Build configuration list for PBXProject "RoveBeacon" */;
+			buildConfigurationList = 2733223E1956B27D00C26A3B /* Build configuration list for PBXProject "Beaconator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -233,8 +235,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				273322421956B27D00C26A3B /* RoveBeacon */,
-				273322621956B27D00C26A3B /* RoveBeaconTests */,
+				273322421956B27D00C26A3B /* Beaconator */,
+				273322621956B27D00C26A3B /* BeaconatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,7 +269,7 @@
 			files = (
 				273322591956B27D00C26A3B /* AppDelegate.m in Sources */,
 				273322551956B27D00C26A3B /* main.m in Sources */,
-				2733225C1956B27D00C26A3B /* RoveBeacon.xcdatamodeld in Sources */,
+				2733225C1956B27D00C26A3B /* Beaconator.xcdatamodeld in Sources */,
 				2733227F1956B2A400C26A3B /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +287,7 @@
 /* Begin PBXTargetDependency section */
 		2733226A1956B27D00C26A3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 273322421956B27D00C26A3B /* RoveBeacon */;
+			target = 273322421956B27D00C26A3B /* Beaconator */;
 			targetProxy = 273322691956B27D00C26A3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,10 +392,10 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RoveBeacon/RoveBeacon-Prefix.pch";
-				INFOPLIST_FILE = "RoveBeacon/RoveBeacon-Info.plist";
+				GCC_PREFIX_HEADER = "RoveBeacon/Beaconator-Prefix.pch";
+				INFOPLIST_FILE = "RoveBeacon/Beaconator-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Beaconator;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -409,10 +411,10 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RoveBeacon/RoveBeacon-Prefix.pch";
-				INFOPLIST_FILE = "RoveBeacon/RoveBeacon-Info.plist";
+				GCC_PREFIX_HEADER = "RoveBeacon/Beaconator-Prefix.pch";
+				INFOPLIST_FILE = "RoveBeacon/Beaconator-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Beaconator;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -433,8 +435,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "RoveBeaconTests/RoveBeaconTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "RoveBeaconTests/BeaconatorTests-Info.plist";
+				PRODUCT_NAME = BeaconatorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -451,8 +453,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RoveBeacon/RoveBeacon-Prefix.pch";
-				INFOPLIST_FILE = "RoveBeaconTests/RoveBeaconTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "RoveBeaconTests/BeaconatorTests-Info.plist";
+				PRODUCT_NAME = BeaconatorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -461,7 +463,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2733223E1956B27D00C26A3B /* Build configuration list for PBXProject "RoveBeacon" */ = {
+		2733223E1956B27D00C26A3B /* Build configuration list for PBXProject "Beaconator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				273322731956B27D00C26A3B /* Debug */,
@@ -470,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		273322751956B27D00C26A3B /* Build configuration list for PBXNativeTarget "RoveBeacon" */ = {
+		273322751956B27D00C26A3B /* Build configuration list for PBXNativeTarget "Beaconator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				273322761956B27D00C26A3B /* Debug */,
@@ -479,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		273322781956B27D00C26A3B /* Build configuration list for PBXNativeTarget "RoveBeaconTests" */ = {
+		273322781956B27D00C26A3B /* Build configuration list for PBXNativeTarget "BeaconatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				273322791956B27D00C26A3B /* Debug */,
@@ -491,13 +493,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2733225A1956B27D00C26A3B /* RoveBeacon.xcdatamodeld */ = {
+		2733225A1956B27D00C26A3B /* Beaconator.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				2733225B1956B27D00C26A3B /* RoveBeacon.xcdatamodel */,
+				2733225B1956B27D00C26A3B /* Beaconator.xcdatamodel */,
 			);
-			currentVersion = 2733225B1956B27D00C26A3B /* RoveBeacon.xcdatamodel */;
-			path = RoveBeacon.xcdatamodeld;
+			currentVersion = 2733225B1956B27D00C26A3B /* Beaconator.xcdatamodel */;
+			path = Beaconator.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -36,6 +36,18 @@
     self.beaconTwoButton.backgroundColor = [UIColor colorWithRed:46.0/255.0 green:204.0/255 blue:113.0/255.0 alpha:1.0];
     self.beaconTwoButton.titleLabel.textColor = [UIColor whiteColor];
     
+    self.beaconThreeButton.backgroundColor = [UIColor colorWithRed:232.0/255.0 green:86.0/255 blue:71.0/255.0 alpha:1.0];
+    self.beaconThreeButton.titleLabel.textColor = [UIColor whiteColor];
+
+    self.beaconFourButton.backgroundColor = [UIColor colorWithRed:148.0/255.0 green:73.0/255 blue:179.0/255.0 alpha:1.0];
+    self.beaconFourButton.titleLabel.textColor = [UIColor whiteColor];
+
+    self.beaconFiveButton.backgroundColor = [UIColor colorWithRed:233.0/255.0 green:137.0/255 blue:54.0/255.0 alpha:1.0];
+    self.beaconFiveButton.titleLabel.textColor = [UIColor whiteColor];
+
+    self.beaconSixButton.backgroundColor = [UIColor colorWithRed:52.0/255.0 green:152.0/255 blue:219.0/255.0 alpha:1.0];
+    self.beaconSixButton.titleLabel.textColor = [UIColor whiteColor];
+
     _uuid = [[NSUUID alloc] initWithUUIDString:@"BC02C8B3-456E-4FEA-8AFE-B7ABC8945291"];
 }
 
@@ -68,7 +80,7 @@
                                                                 minor:_minor
                                                            identifier:@"com.rover.pdx"];
     // Get the beacon data to advertise
-    self.beaconData = [self.beaconRegion peripheralDataWithMeasuredPower:nil];
+    self.beaconData = [self.beaconRegion peripheralDataWithMeasuredPower:[NSNumber numberWithFloat:-56]];
     
     // Start the peripheral manager
     self.peripheralManager = [[CBPeripheralManager alloc] initWithDelegate:self
